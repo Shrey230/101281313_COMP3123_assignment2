@@ -1,5 +1,35 @@
 # 101281313_COMP3123_assignment2
 
+#Employee Management System
+
+Make sure MongoDB service is running.
+
+The config folder contains a file named db.js. Before running locally, change the value of db as seen in the code below.
+
+module.exports = {
+  db: 'mongodb://localhost/mern-crud'
+};
+For the back-end, install the dependencies once via the terminal.
+
+npm install
+Run the main server. It listens on port 3000.
+
+CORS=1 node server
+View it on the browser.
+
+
+If you want to configure the front-end, go to react-src folder via the terminal.
+
+cd react-src
+Install the dependencies required by React once.
+
+npm install
+Run the development server for React. It listens on port 4200.
+
+REACT_APP_API_URL=http://localhost:3000 npm start
+
+
+
 <img width="1440" alt="Screen Shot 2021-12-05 at 10 36 30 PM" src="https://user-images.githubusercontent.com/71048937/144788016-3ace89f0-5c88-4811-987b-1228df28aa56.png">
 <img width="1440" alt="Screen Shot 2021-12-05 at 10 36 35 PM" src="https://user-images.githubusercontent.com/71048937/144788018-0e7432b2-804f-439d-9583-bdd03c1b6e44.png">
 <img width="1440" alt="Screen Shot 2021-12-05 at 10 39 35 PM" src="https://user-images.githubusercontent.com/71048937/144788020-eab53e2b-476a-4e64-9c4f-737d69a07c5b.png">
