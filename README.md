@@ -7,23 +7,25 @@ Make sure MongoDB service is running.
 The config folder contains a file named db.js. Before running locally, change the value of db as seen in the code below.
 
 module.exports = {
-  db: 'mongodb://localhost/mern-crud'
+  db: 'mongodb+srv://shrey2308:momdad2308@comp3123.nj3o5.mongodb.net/101281313_assignment02?authSource=admin&replicaSet=atlas-x2b83t-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true'
 };
+
+
 For the back-end, install the dependencies once via the terminal.
 
-npm install
+#npm install
 Run the main server. It listens on port 3000.
 
-CORS=1 node server
+#CORS=1 node server
 View it on the browser.
 
 
 If you want to configure the front-end, go to react-src folder via the terminal.
 
-cd react-src
+#cd react-src
 Install the dependencies required by React once.
 
-npm install
+#npm install
 Run the development server for React. It listens on port 4200.
 
 REACT_APP_API_URL=http://localhost:3000 npm start
