@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Shrey230/101281313_COMP3123_assignment2"
   },
   "keywords": [],
   "author": "Shrey patel",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/cefjoeii/mern-crud/issues"
   },
-  "homepage": "https://github.com/cefjoeii/mern-crud#readme",
+  "homepage": "https://github.com/Shrey230/101281313_COMP3123_assignment2#readme",
   "dependencies": {
     "body-parser": "1.19.0",
     "cors": "2.8.5",
